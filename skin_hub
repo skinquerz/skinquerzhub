@@ -51,19 +51,19 @@ function MakeScriptHub()
               end
         })
         SkinTab:AddButton({
-            Name = "Zer0 Hub!",
-            Callback = function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
-              end
-        })
-        SkinTab:AddButton({
             Name = "Yuto hub!",
             Callback = function()
                 repeat wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Binintrozza/yutv2e/main/afss"))()
               end
         })
-        Skin1Tab:AddButton({
+        SkinTab:AddButton({
+            Name = "Zer0 Hub!",
+            Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
+              end
+        })
+	Skin1Tab:AddButton({
             Name = "Scret X Hub",
             Callback = function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/8bba073b95b8c5a01d6dec853a75f28e52f08609/MakoriCarft/X2/SecretXHub"))()
