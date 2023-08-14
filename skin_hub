@@ -27,8 +27,16 @@ function MakeScriptHub()
             Icon = "rbxassetid://4483345998",
             PremiumOnly = false
         })
+        local Skin1Tab = Window:MakeTab({
+            Name = "Scripts BF",
+            Icon = "rbxassetid://4483345998",
+            PremiumOnly = false
+        })
+        local Section = Skin1Tab:AddSection({
+            Name = ""
+        })
         local Section = SkinTab:AddSection({
-            Name = "Scripts"
+            Name = ""
         })
         SkinTab:AddButton({
             Name = "Dupe!",
