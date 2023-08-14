@@ -28,7 +28,7 @@ function MakeScriptHub()
             PremiumOnly = false
         })
         local Section = LughTab:AddSection({
-            Name = "Scripts"
+            Name = "Scripts Afs"
         })
         LughTab:AddButton({
             Name = "Dupe!",
