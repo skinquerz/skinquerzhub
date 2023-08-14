@@ -22,33 +22,33 @@ function MakeScriptHub()
         local Window = OrionLib:MakeWindow({Name = "Skin_Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Skin_Hub", IntroText = "Skin_Scripts"})
     
         -- Jogador
-        local LughTab = Window:MakeTab({
-            Name = "Start",
+        local SkinTab = Window:MakeTab({
+            Name = "Scripts Afs",
             Icon = "rbxassetid://4483345998",
             PremiumOnly = false
         })
-        local Section = LughTab:AddSection({
-            Name = "Scripts Afs"
+        local Section = SkinTab:AddSection({
+            Name = "Scripts"
         })
-        LughTab:AddButton({
+        SkinTab:AddButton({
             Name = "Dupe!",
             Callback = function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Dupe/AFSim", true))()
               end
         })
-        LughTab:AddButton({
+        SkinTab:AddButton({
             Name = "Platinium Hub!",
             Callback = function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
               end
         })
-        LughTab:AddButton({
+        SkinTab:AddButton({
             Name = "Zer0 Hub!",
             Callback = function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
               end
         })
-        LughTab:AddButton({
+        SkinTab:AddButton({
             Name = "Yuto hub!",
             Callback = function()
                 repeat wait() until game:IsLoaded()
